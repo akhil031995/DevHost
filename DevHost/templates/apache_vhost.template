@@ -1,0 +1,15 @@
+# Apache Virtual Host Template — used by DevHost
+# Tokens: {port}, {domain}, {doc_root_fwd}
+
+<VirtualHost *:{port}>
+    ServerName {domain}
+    DocumentRoot "{doc_root_fwd}"
+
+    <Directory "{doc_root_fwd}">
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog "logs/{domain}-error.log"
+    CustomLog "logs/{domain}-access.log" common
+</VirtualHost>

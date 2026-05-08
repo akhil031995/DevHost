@@ -1,0 +1,22 @@
+{
+  "apache_bin": "C:\\xampp\\apache\\bin\\httpd.exe",
+  "vhosts_conf": "C:\\xampp\\apache\\conf\\extra\\httpd-vhosts.conf",
+  "httpd_conf": "C:\\xampp\\apache\\conf\\httpd.conf",
+  "apache_service_name": "",
+  "server_type": "xampp",
+  "hosts_file": "C:\\Windows\\System32\\drivers\\etc\\hosts",
+  "backup_dir": "backups",
+  "log_dir": "logs",
+  "default_doc_root": "C:\\xampp\\htdocs",
+  "default_port": 80,
+  "default_ssl_port": 443,
+  "auto_restart_apache": true,
+  "validate_before_save": true,
+  "backup_before_modify": true,
+  "max_backups": 20,
+  "status_poll_interval": 5,
+  "timeout_start_bat": 60,
+  "timeout_stop_bat": 30,
+  "timeout_start_poll": 15,
+  "timeout_service": 30
+}

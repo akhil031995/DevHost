@@ -55,7 +55,8 @@ All settings are saved to `config/settings.json` and configurable through the ta
 
 ## Screenshots
 
-> _Add screenshots here once available._
+![Screenshot_01](DevHost/screenshots/screenshot_01.png)
+![Screenshot_01](DevHost/screenshots/screenshot_02.png)
 
 ---
 
